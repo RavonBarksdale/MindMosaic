@@ -1,0 +1,12 @@
+{
+  "name": "mindmosaic",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "echo \"Build all packages\"",
+    "test": "echo \"No tests yet\""
+  }
+}
