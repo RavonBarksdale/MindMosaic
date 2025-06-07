@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "MindMosaic Helper",
+  "version": "0.1.0",
+  "description": "Highlights glossary terms and provides quick definitions.",
+  "permissions": ["storage", "alarms", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/contentScript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
