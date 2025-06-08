@@ -1,0 +1,8 @@
+---
+import { getCollection } from 'astro:content';
+const notes = await getCollection('notes');
+---
+
+<div>
+  <p>Graph placeholder – renders {notes.length} nodes.</p>
+</div>
