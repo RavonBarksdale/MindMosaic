@@ -9,12 +9,13 @@
     "generate:glossary": "node ../../scripts/export-glossary.js"
   },
   "dependencies": {
-    "astro": "^4.0.0",
-    "@astrojs/mdx": "^3.0.0"
+    "@astrojs/mdx": "^3.0.0",
+    "astro": "^4.0.0"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.0",
+    "@portaljs/remark-wiki-link": "^1.2.0",
+    "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0",
-    "autoprefixer": "^10.4.0"
+    "tailwindcss": "^3.4.0"
   }
 }
